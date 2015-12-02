@@ -1,6 +1,6 @@
 # Example Binder with a Dockerfile
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/binder-project/example-dockerfile)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/lambdalisue/jupyter-vim-binding-demo)
 
 A Binder-compatibible repository that contains its own `Dockerfile`.
 
