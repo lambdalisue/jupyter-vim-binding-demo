@@ -4,9 +4,6 @@ MAINTAINER Alisue <lambdalisue@hashnote.net>
 
 USER main
 
-# DO NOT use cache
-ADD dummyfile /data/
-
 # Install jupyter-vim-binding
 RUN cd $(jupyter --data-dir)
 RUN mkdir -p nbextensions/usability
