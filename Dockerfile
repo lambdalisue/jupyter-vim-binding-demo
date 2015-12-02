@@ -10,4 +10,4 @@ RUN git clone https://github.com/lambdalisue/jupyter-vim-binding $HOME/.local/sh
 
 # Enable jupyter-vim-binding
 RUN mkdir -p $HOME/.jupyter/nbconfig
-RUN cp notebook.json $HOME/.jupyter/nbconfig/
+RUN cp $HOME/notebooks/notebook.json $HOME/.jupyter/nbconfig/
